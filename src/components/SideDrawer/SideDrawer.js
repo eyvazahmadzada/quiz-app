@@ -13,11 +13,11 @@ const SideDrawer = (props) => {
     <div className={classes.join(" ")} onClick={props.clicked}>
       <ul className="NavItems">
         <NavigationItem to="/">Game</NavigationItem>
-        <NavigationItem to="/offline">Play offline</NavigationItem>
-        {/* <NavigationItem to="/scoreboard">Scoreboard</NavigationItem>
+        <NavigationItem to="/offline">Play Offline</NavigationItem>
+        <NavigationItem to="/scoreboard">Scoreboard</NavigationItem>
         <NavigationItem to="/register">Register</NavigationItem>
         <NavigationItem to="/login">Login</NavigationItem>
-        <NavigationItem to="/profile">Profile</NavigationItem> */}
+        <NavigationItem to="/profile">Profile</NavigationItem>
       </ul>
     </div>
   );
