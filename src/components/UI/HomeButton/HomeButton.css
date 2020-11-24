@@ -1,0 +1,15 @@
+.HomeButton {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 0.9rem 4.2rem;
+    font-size: 1rem;
+    color: white;
+    background-image: linear-gradient(to left, #f99600, #ff3800);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+}
+
+.HomeButton:focus {
+    outline: none;
+}

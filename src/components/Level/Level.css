@@ -1,0 +1,17 @@
+.Level {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 0.8rem;
+    margin: 0.8rem;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.LevelIcon {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #188ABF;
+}

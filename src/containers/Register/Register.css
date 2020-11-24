@@ -1,0 +1,21 @@
+.Register {
+    display: flex;
+    min-height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem 2rem;
+}
+
+.RegisterHeader {
+    margin-top: 0;
+    text-align: center;
+}
+
+#photo {
+    display: none;
+}
+
+.RegisterPhoto {
+    text-align: center;
+    margin-bottom: 1rem;
+}

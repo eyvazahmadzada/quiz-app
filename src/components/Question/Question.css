@@ -1,0 +1,110 @@
+.Wrapper {
+    text-align: center;
+}
+
+.Question {
+    background-color: #7500e9;
+    height: 35vh;
+    padding: 30px 10px;
+    border-bottom-left-radius: 25%;
+}
+
+.QuestionCard {
+    height: 80%;
+    padding: 0 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    box-shadow: 1px 2px 10px black;
+    position: relative;
+}
+
+.QuestionIndex {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 0.8rem;
+    color: #80449a;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.QuestionTimer {
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.Answer {
+    height: 65vh;
+}
+
+.AnswerHeader {
+    color: #aaaaab;
+}
+
+.AnswerCard {
+    position: relative;
+    min-height: 12%;
+    width: 80%;
+    box-sizing: border-box;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-weight: bolder;
+    /* font-size: 1.1rem; */
+    border: 1px solid #ccc;
+}
+
+.AnswerCard>p {
+    width: 100%;
+    min-height: 12%;
+    cursor: pointer;
+}
+
+.AnswerCard.correct {
+    border: 2px solid #6DDD75;
+    position: relative;
+}
+
+.AnswerCard.correct::before {
+    content: "";
+    top: 8px;
+    right: 30px;
+    position: absolute;
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 20px;
+    width: 12px;
+    border-bottom: 5px solid #6DDD75;
+    border-right: 5px solid #6DDD75;
+}
+
+.checked {
+    position: absolute;
+    display: none;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    border-radius: 10px;
+    top: -10px;
+    right: -20px;
+}
+
+.checked>span {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    transform: rotate(-45deg);
+}
+
+.AnswerCard.incorrect {
+    border: 2px solid #E04D59;
+}

@@ -1,0 +1,19 @@
+.Home {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+    padding: 5%;
+}
+
+.HomeHeader {
+    font-family: 'Faster One', cursive;
+    font-size: 3.5rem;
+    color: #ff0017;
+}
+
+.HomeMain {
+    width: 100%;
+}

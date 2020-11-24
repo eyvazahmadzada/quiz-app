@@ -1,0 +1,32 @@
+.ScoreBoard>h2 {
+    text-align: center;
+    margin-top: 0;
+}
+
+.ScoreBoardTop {
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.ScoreBoardRanking {
+    background-color: whitesmoke;
+    margin-top: 1rem;
+    margin-bottom: 100px;
+    padding: 1rem 0;
+}
+
+.UserRanking {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #1FACEF;
+    color: white;
+}
+
+@media only screen and (max-width: 450px) {
+    .ScoreBoardRanking {
+        margin-bottom: 80px;
+    }
+}

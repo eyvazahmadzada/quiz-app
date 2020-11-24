@@ -1,0 +1,11 @@
+.Offline {
+    text-align: center;
+}
+
+.Offline>h2 {
+    margin-top: 0;
+}
+
+.Offline>p {
+    font-weight: bold;
+}

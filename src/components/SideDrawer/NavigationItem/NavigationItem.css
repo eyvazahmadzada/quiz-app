@@ -1,0 +1,11 @@
+.NavigationItem {
+    cursor: pointer;
+    margin: 10px;
+    display: block;
+}
+
+.NavigationItem a {
+    color: #7f6fe9;
+    width: 100%;
+    text-decoration: none;
+}

@@ -1,0 +1,52 @@
+.Result {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+    min-height: 100vh;
+}
+
+.ResultHeader {
+    font-family: 'Faster One', cursive;
+    font-size: 2rem;
+    color: #ff0017;
+}
+
+.ResultBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: 20vh;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px black;
+}
+
+.Score {
+    color: red;
+}
+
+.ResultIcons {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Icon {
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 2px black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.IconGroup {
+    padding: 10px;
+    white-space: nowrap;
+}

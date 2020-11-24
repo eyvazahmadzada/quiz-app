@@ -1,0 +1,20 @@
+.ProfileItem {
+    margin: 0.5rem 0;
+}
+
+.ProfileItemLink {
+    list-style: none;
+    margin-left: 1rem;
+    display: inline-block;
+}
+
+.ProfileItemLink>a {
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+
+.ProfileItemLink>a:hover {
+    transition: 0.5s;
+    color: #8271EB;
+}

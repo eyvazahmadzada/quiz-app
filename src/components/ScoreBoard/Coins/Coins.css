@@ -1,0 +1,14 @@
+.Coins {
+    font-size: 0.9rem;
+}
+
+.Coins>span {
+    font-weight: bold;
+    margin-left: 0.3rem;
+}
+
+@media only screen and (max-width: 450px) {
+    .Coins {
+        font-size: 0.8rem;
+    }
+}

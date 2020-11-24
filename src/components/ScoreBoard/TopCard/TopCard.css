@@ -1,0 +1,55 @@
+.TopCard {
+    text-align: center;
+}
+
+.TopCardImg>img {
+    width: 90%;
+    border-radius: 50%;
+    position: relative;
+    z-index: -1;
+}
+
+.TopCardImg>span {
+    margin: 0 auto;
+    margin-top: -20px;
+    display: block;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background-color: red;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+}
+
+.TopCardInfo {
+    margin-bottom: 0.8rem;
+}
+
+.TopCardInfo>p {
+    font-weight: bolder;
+    margin-bottom: 0.2rem;
+}
+
+.TopCardInfo>span {
+    color: #c4c4c4;
+    font-size: 0.95rem;
+}
+
+@media only screen and (max-width: 450px) {
+    .TopCardInfo>span {
+        font-size: 0.8rem;
+    }
+
+    .TopCardImg>img {
+        width: 80%;
+    }
+
+    .TopCardImg>span {
+        width: 30px;
+        height: 30px;
+        padding: 7px;
+    }
+
+}

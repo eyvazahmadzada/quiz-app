@@ -1,0 +1,33 @@
+.FormGroup>label {
+    display: block;
+    font-weight: bold;
+    font-size: 0.95rem;
+    color: #C6C6C6;
+}
+
+.FormGroup>input {
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 5px 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #C6C6C6;
+    background-color: none;
+    outline: none;
+}
+
+.FormGroup>input:focus {
+    border-color: #67E6C1;
+}
+
+.FormGroup {
+    margin-bottom: 2rem;
+
+}
+
+@media only screen and (max-width: 450px) {
+    .FormGroup>input {
+        font-size: 0.9rem;
+    }
+}
